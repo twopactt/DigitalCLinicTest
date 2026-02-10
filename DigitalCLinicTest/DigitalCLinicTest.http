@@ -1,0 +1,6 @@
+@DigitalCLinicTest_HostAddress = http://localhost:5160
+
+GET {{DigitalCLinicTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
