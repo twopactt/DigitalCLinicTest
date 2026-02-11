@@ -9,7 +9,7 @@ public partial class MedicalCard
 
     public int PatientId { get; set; }
 
-    public string BloodType { get; set; } = null!;
+    public int BloodTypeId { get; set; }
 
     public int Height { get; set; }
 
@@ -18,6 +18,8 @@ public partial class MedicalCard
     public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
+
+    public virtual BloodType BloodType { get; set; } = null!;
 
     public virtual Patient Patient { get; set; } = null!;
 }

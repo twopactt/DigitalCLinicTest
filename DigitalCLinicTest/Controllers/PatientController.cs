@@ -20,7 +20,7 @@ namespace DigitalCLinicTest.Controllers
             _jwtService = jwtService;
         }
 
-        [HttpPost("create-patient")]
+        [HttpPost("createPatient")]
         public IActionResult CreatePatient([FromBody] CreatePatientRequestModel model)
         {
             if (string.IsNullOrWhiteSpace(model.Email) || string.IsNullOrWhiteSpace(model.Password))
