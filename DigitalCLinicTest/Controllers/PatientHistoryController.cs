@@ -1,6 +1,7 @@
 ﻿using DigitalCLinicTest.DatabaseContext;
 using DigitalCLinicTest.Helpers;
 using DigitalCLinicTest.ResponceModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
